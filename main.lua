@@ -1,8 +1,8 @@
-if game.PlaceId == 893973440 then --FLEE THE FACILITY
+if game.GameId == 893973440 then --FLEE THE FACILITY
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/games/main/fleethefacility.lua", true))()
-elseif game.PlaceId == 6284583030 then --PSX
+elseif game.GameId == 6284583030 then --PSX
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/games/main/psx.lua", true))()
-elseif game.PlaceId ~= 893973440 or 6284583030 then
+elseif game.GameId ~= 893973440 or 6284583030 then
     print('| DanixHub |')
     wait(.02)
     print('Unsupported game, universal soon.')
